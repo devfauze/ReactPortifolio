@@ -51,7 +51,7 @@ export default function Profile(props){
                 <div className="flex flex-col justify-center items-center">
                     <p className="text-xl font-bold my-5">Projetos</p>
                     <Project
-                    image= "./imgs/calcjsimg.png"
+                    image= "../../imgs/calcjsimg.png"
                     nameProject= "Calc.js"
                     desc= {`Calculadora simples, projeto desenvolvido com o intuito de treinar os aprendizados de DOM (Document Object Model) para fazer manipulações para interagir e fazer cálculos.`}
                     tools= "HTML-CSS-Javascript"
@@ -59,7 +59,7 @@ export default function Profile(props){
                     />
 
                     <Project
-                    image= "./imgs/authprint.png"
+                    image= "../../imgs/authprint.png"
                     nameProject= "Auth com Node"
                     desc= {`Projeto de autenticação com token em JWT, desenvolvido cadastro de usuário com criptografia de senha e adição de hash, login e validação com check de token para liberar rota privada, mongoDB para armazenamento dos cadastros e testes pelo Insomnia.`}
                     tools= "JAVASCRIPT-NODE-EXPRESS-MONGOOSE-BCRYPT-JWT"
@@ -67,7 +67,7 @@ export default function Profile(props){
                     />
 
                     <Project
-                    image= "./imgs/apirestprint.png"
+                    image= "../../imgs/apirestprint.png"
                     nameProject= "API RESTful"
                     desc= {`API RESTful desenvolvida como CRUD (Create, Read, Update e Delete), utilizando metodos os GET, POST, PATCH & DELETE, mongoDB para armazenamento de dados e testes pelo Insomnia.`}
                     tools= "JAVASCRIPT-EXPRESS-MONGOOSE"
@@ -75,7 +75,7 @@ export default function Profile(props){
                     />
 
                     <Project
-                    image= "./imgs/whatisprojectlogo.png"
+                    image= "../../imgs/whatisprojectlogo.png"
                     nameProject= "whatIs.Project"
                     desc= {`Dizem que a melhor maneira de aprender é ensinar, encontro também prazer em ensinar o que sei, o whatIs é um projeto onde vou disponibilizar tudo que sei no mundo de programação de maneira simples e escrita, de forma gratuita também para quem quiser aprender sobre.`}
                     tools= "GITHUB"
